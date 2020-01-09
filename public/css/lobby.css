@@ -1,0 +1,52 @@
+#title1, #title2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#title2{
+    font-size: 15px;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #8ca3b6
+    }
+    25% {
+        background-color: #66bf39
+    }
+    50% {
+        background-color: #d67b3e
+    }
+    75% {
+        background-color: rgba(220, 223, 62, 0.89)
+    }
+    100% {
+        background-color: #b697b6
+    }
+}
+
+body {
+}
+.loader {
+    display: block;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3A3B3A;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 1.5s linear infinite; /* Safari */
+    animation: spin 1.5s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

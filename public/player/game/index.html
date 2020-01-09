@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game | KahootClone</title>
+    <link rel="stylesheet" href="../../css/playerGameView.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <center><img src="/images/logo_eedama_90.png"/><center>
+    <div id="stats">
+        <h4 id="nameText"></h4>
+        <h4 id="scoreText"></h4>
+        <h4 id="rankText"></h4>
+    </div>
+    <h2 id="message"></h2>
+    <img id="banner"/>
+
+    <h2 id="question">Question</h2>
+
+    <button onclick="answerSubmitted(1)" id="answer1" class="button"></button>
+    <br>
+    <button onclick="answerSubmitted(2)" id="answer2" class="button"></button>
+    <br>
+    <button onclick="answerSubmitted(3)" id="answer3" class="button"></button>
+    <br>
+    <button onclick="answerSubmitted(4)" id="answer4" class="button"></button>
+
+        <script src="https://cdn.jsdelivr.net/npm/socket.io-client@2/dist/socket.io.js"></script>
+    <script src="../../js/libs/jqueryLibrary.js"></script>
+    <script src="../../js/libs/deparam.js"></script>
+    <script src="../../js/playerGame.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,976 @@
+{
+  "card": {
+    "type": "quiz",
+    "title": "Composting Quiz",
+    "description": "",
+    "slug": "composting-quiz",
+    "cover": "https://media.kahoot.it/409daacc-e856-4fbb-9288-d4e3519933c0",
+    "coverMetadata": {
+      "id": "409daacc-e856-4fbb-9288-d4e3519933c0"
+    },
+    "draftExists": true,
+    "number_of_questions": 20,
+    "creator": "952536ad-f7cc-47c6-a57c-f18675406d2d",
+    "creator_username": "eedama",
+    "visibility": 0,
+    "locked": false,
+    "writeProtection": false,
+    "last_edit": {
+      "editorUserId": "952536ad-f7cc-47c6-a57c-f18675406d2d",
+      "editorUsername": "eedama",
+      "editTimestamp": 1569313141244
+    },
+    "featured": false,
+    "young_featured": false,
+    "sponsored": false,
+    "draft": false,
+    "combined": false,
+    "compatibility_level": 1,
+    "sample_questions": [
+      {
+        "image": "https://media.kahoot.it/c5c90c7d-d4ba-4a09-be44-87fc319586fe",
+        "imageMetadata": {
+          "id": "c5c90c7d-d4ba-4a09-be44-87fc319586fe",
+          "contentType": "image/jpeg",
+          "width": 672,
+          "height": 272,
+          "effects": [
+
+          ],
+          "crop": {
+            "origin": {
+              "x": 135,
+              "y": 0
+            },
+            "target": {
+              "x": 408,
+              "y": 272
+            }
+          }
+        },
+        "title": "What is compost?",
+        "type": "quiz"
+      },
+      {
+        "image": "https://media.kahoot.it/b41a5d37-d2aa-4bf5-b067-14da93d609ed",
+        "imageMetadata": {
+          "id": "b41a5d37-d2aa-4bf5-b067-14da93d609ed",
+          "contentType": "image/gif",
+          "width": 600,
+          "height": 524,
+          "effects": [
+
+          ]
+        },
+        "title": "An average person throws away 7x their own body weight in waste every year",
+        "type": "quiz"
+      },
+      {
+        "image": "https://media.kahoot.it/86f02fe2-2226-4538-90e1-3c80ae666d65",
+        "imageMetadata": {
+          "id": "86f02fe2-2226-4538-90e1-3c80ae666d65",
+          "contentType": "image/jpeg",
+          "width": 4954,
+          "height": 2561,
+          "effects": [
+
+          ],
+          "crop": {
+            "origin": {
+              "x": 0,
+              "y": 0
+            },
+            "target": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+        "title": "Which of the following should never be composted?",
+        "type": "quiz"
+      }
+    ],
+    "number_of_plays": 1,
+    "number_of_players": 1,
+    "total_favourites": 0,
+    "question_types": [
+      "quiz"
+    ],
+    "created": 1569057508157,
+    "modified": 1569313141244,
+    "access": {
+      "features": [
+
+      ]
+    },
+    "duplication_disabled": false,
+    "uuid": "62af1c3c-a59c-454b-a1e0-17d44d6463b2"
+  },
+  "kahoot": {
+    "uuid": "62af1c3c-a59c-454b-a1e0-17d44d6463b2",
+    "language": "English",
+    "creator": "952536ad-f7cc-47c6-a57c-f18675406d2d",
+    "creator_username": "eedama",
+    "compatibilityLevel": 1,
+    "creator_primary_usage": "social",
+    "folderId": "952536ad-f7cc-47c6-a57c-f18675406d2d",
+    "visibility": 0,
+    "audience": "School",
+    "title": "Composting Quiz",
+    "description": "",
+    "quizType": "quiz",
+    "cover": "https://media.kahoot.it/409daacc-e856-4fbb-9288-d4e3519933c0",
+    "coverMetadata": {
+      "id": "409daacc-e856-4fbb-9288-d4e3519933c0"
+    },
+    "lobby_video": {
+      "youtube": {
+        "id": "",
+        "startTime": 0,
+        "endTime": 0,
+        "service": "youtube",
+        "fullUrl": ""
+      }
+    },
+    "questions": [
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Living Organic Material",
+            "correct": false
+          },
+          {
+            "answer": "Dirt Material",
+            "correct": false
+          },
+          {
+            "answer": "Decaying Organic Material",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "What is compost?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/c5c90c7d-d4ba-4a09-be44-87fc319586fe",
+        "imageMetadata": {
+          "id": "c5c90c7d-d4ba-4a09-be44-87fc319586fe",
+          "contentType": "image/jpeg",
+          "width": 672,
+          "height": 272,
+          "effects": [
+
+          ],
+          "crop": {
+            "origin": {
+              "x": 135,
+              "y": 0
+            },
+            "target": {
+              "x": 408,
+              "y": 272
+            }
+          }
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "True ",
+            "correct": true
+          },
+          {
+            "answer": "False",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "An average person throws away 7x their own body weight in waste every year",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 2,
+        "image": "https://media.kahoot.it/b41a5d37-d2aa-4bf5-b067-14da93d609ed",
+        "imageMetadata": {
+          "id": "b41a5d37-d2aa-4bf5-b067-14da93d609ed",
+          "contentType": "image/gif",
+          "width": 600,
+          "height": 524,
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Wheat",
+            "correct": false
+          },
+          {
+            "answer": "Lime",
+            "correct": true
+          },
+          {
+            "answer": "Egg Shells",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "Which of the following should never be composted?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/86f02fe2-2226-4538-90e1-3c80ae666d65",
+        "imageMetadata": {
+          "id": "86f02fe2-2226-4538-90e1-3c80ae666d65",
+          "contentType": "image/jpeg",
+          "width": 4954,
+          "height": 2561,
+          "effects": [
+
+          ],
+          "crop": {
+            "origin": {
+              "x": 0,
+              "y": 0
+            },
+            "target": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Plant Trimmings",
+            "correct": false
+          },
+          {
+            "answer": "Treated Wood",
+            "correct": true
+          },
+          {
+            "answer": "Coffee Grinds",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "Which of the following can't we put in a compost bin?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/12bbe9fb-6ba0-4bd2-a781-f2957c55dc13",
+        "imageMetadata": {
+          "id": "12bbe9fb-6ba0-4bd2-a781-f2957c55dc13",
+          "contentType": "image/png",
+          "width": 434,
+          "height": 361,
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Fermentation &amp; Direct Decomposition",
+            "correct": true
+          },
+          {
+            "answer": "Food Waste Recycling &amp; Direct Decomposition",
+            "correct": false
+          },
+          {
+            "answer": "Fermentation &amp; Degrading ",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "What are two types of composting?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/c487ebf5-3fcc-4b88-b873-bb5d0117fdc0",
+        "imageMetadata": {
+          "id": "c487ebf5-3fcc-4b88-b873-bb5d0117fdc0",
+          "contentType": "image/jpeg",
+          "width": 1366,
+          "height": 911,
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "No More Food Waste in Landfills",
+            "correct": false
+          },
+          {
+            "answer": "Recycling of Nutrients to Valuable Product",
+            "correct": false
+          },
+          {
+            "answer": "More International Food Production",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "Which of the following is NOT an advantage of composting?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/5c909499-f6e0-4255-9f10-ebc13650a1e5",
+        "imageMetadata": {
+          "id": "5c909499-f6e0-4255-9f10-ebc13650a1e5",
+          "contentType": "image/jpeg",
+          "width": 275,
+          "height": 183,
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Keep Covered For Months",
+            "correct": false
+          },
+          {
+            "answer": "Keep Food Waste Balanced",
+            "correct": true
+          },
+          {
+            "answer": "Don't Mix the Compost",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "How do we maintain a compost?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/22a4cca5-ad02-450e-9774-c540cfb940d4",
+        "imageMetadata": {
+          "id": "22a4cca5-ad02-450e-9774-c540cfb940d4",
+          "contentType": "image/jpeg",
+          "width": 736,
+          "height": 372,
+          "effects": [
+
+          ],
+          "crop": {
+            "origin": {
+              "x": 37,
+              "y": 0
+            },
+            "target": {
+              "x": 558,
+              "y": 372
+            }
+          }
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Bacteria",
+            "correct": false
+          },
+          {
+            "answer": "Fungi",
+            "correct": false
+          },
+          {
+            "answer": "Both",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "Inside a pile of compost you will find...",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "http://s3-eu-west-1.amazonaws.com/lecturequizuploads/c0b383dc-05a0-4aa3-904c-0368829b18e0_opt",
+        "imageMetadata": {
+          "id": "c0b383dc-05a0-4aa3-904c-0368829b18e0",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube"
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "A Place to Throw Away All Trash",
+            "correct": false
+          },
+          {
+            "answer": "A Collection of Organic Matter",
+            "correct": true
+          },
+          {
+            "answer": "A Big Box of Soil",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "What is a compost bin?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "http://s3-eu-west-1.amazonaws.com/lecturequizuploads/666bd3ba-d0ad-48ab-aea9-aa504041523f",
+        "imageMetadata": {
+          "id": "666bd3ba-d0ad-48ab-aea9-aa504041523f",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube"
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Salamanders",
+            "correct": false
+          },
+          {
+            "answer": "Night Crawlers",
+            "correct": false
+          },
+          {
+            "answer": "Red Wrigglers",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "what worms are ideal for compost?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/0716422d-b122-4465-9fed-e3aa98b3c0d1_opt",
+        "imageMetadata": {
+          "id": "0716422d-b122-4465-9fed-e3aa98b3c0d1",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Dairy Products",
+            "correct": false
+          },
+          {
+            "answer": "Rotting Vegetable Matter",
+            "correct": true
+          },
+          {
+            "answer": "Mix of the Above",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "What is a compost pile made of?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "http://s3-eu-west-1.amazonaws.com/lecturequizuploads/07478ef0-6588-449e-988a-3ff55971b1d2_opt",
+        "imageMetadata": {
+          "id": "07478ef0-6588-449e-988a-3ff55971b1d2",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube"
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "To maintain oxygen in the compost",
+            "correct": true
+          },
+          {
+            "answer": "To ensure anaerobic respiration",
+            "correct": false
+          },
+          {
+            "answer": "Compost needs methane from anaerobic respiration.",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "Why do people turn over compost with a rake?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/1423acc8-5915-40d8-a93d-6866015d906b_opt",
+        "imageMetadata": {
+          "id": "1423acc8-5915-40d8-a93d-6866015d906b",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Composting is a Collection of Trash",
+            "correct": false
+          },
+          {
+            "answer": "Composting Produces Methane Gas",
+            "correct": false
+          },
+          {
+            "answer": "Composting Cuts Down on Waste in Landfills",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "What is true about composting?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/e7a610b0-602c-4909-b82e-0958911a0371",
+        "imageMetadata": {
+          "id": "e7a610b0-602c-4909-b82e-0958911a0371",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "It Feeds Worms",
+            "correct": false
+          },
+          {
+            "answer": "It Adds Nutrients to the Soil",
+            "correct": true
+          },
+          {
+            "answer": "Both",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "It is a good idea to compost because...",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "http://s3-eu-west-1.amazonaws.com/lecturequizuploads/e5ee6947-b385-454b-a8df-f70c44284704_opt",
+        "imageMetadata": {
+          "id": "e5ee6947-b385-454b-a8df-f70c44284704",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube"
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Meat &amp; Green Material",
+            "correct": false
+          },
+          {
+            "answer": "Green Material &amp; Water",
+            "correct": false
+          },
+          {
+            "answer": "Brown &amp; Green Material",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "Which of the following items is an example of what you would put in a compost?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "http://s3-eu-west-1.amazonaws.com/lecturequizuploads/56b3c46e-6d86-4136-b113-8543bf712187_opt",
+        "imageMetadata": {
+          "id": "56b3c46e-6d86-4136-b113-8543bf712187",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube"
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Nitrogen",
+            "correct": false
+          },
+          {
+            "answer": "Oxygen",
+            "correct": false
+          },
+          {
+            "answer": "Both",
+            "correct": true
+          },
+          {
+            "answer": "Neither",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "compost require what source",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 4,
+        "image": "https://media.kahoot.it/3a5154bc-e195-4a0e-a29b-67c5514873bb_opt",
+        "imageMetadata": {
+          "id": "3a5154bc-e195-4a0e-a29b-67c5514873bb",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Yes",
+            "correct": false
+          },
+          {
+            "answer": "No",
+            "correct": true
+          },
+          {
+            "answer": "You Could if You Wanted",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "Do you need fertilizer while composting?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/458f788a-553a-445c-99fd-f40a94c610d5_opt",
+        "imageMetadata": {
+          "id": "458f788a-553a-445c-99fd-f40a94c610d5",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Microorganisms are The Building Blocks of Life",
+            "correct": false
+          },
+          {
+            "answer": "They Add Flavors to Our Food",
+            "correct": false
+          },
+          {
+            "answer": "They Help Break Down the Organic Matters",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "How do microorganisms contribute to composting?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "http://s3-eu-west-1.amazonaws.com/lecturequizuploads/1bd5a2ec-9caa-44e6-b5ec-2a458f471da7",
+        "imageMetadata": {
+          "id": "1bd5a2ec-9caa-44e6-b5ec-2a458f471da7",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube"
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "It Saves Our Bin From Overflowing",
+            "correct": false
+          },
+          {
+            "answer": "It Helps Us Get Healthier Soil",
+            "correct": true
+          },
+          {
+            "answer": "It Makes Our Garden Look Better",
+            "correct": false
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "What benifit does compost have to us?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/d5cd5b61-41e3-4298-8818-40a267456e8a_opt",
+        "imageMetadata": {
+          "id": "d5cd5b61-41e3-4298-8818-40a267456e8a",
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "id": "",
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      },
+      {
+        "type": "quiz",
+        "choices": [
+          {
+            "answer": "Layering browns and greens to improve aeration",
+            "correct": false
+          },
+          {
+            "answer": "Incorporating Worms into the Compost",
+            "correct": false
+          },
+          {
+            "answer": "Both Factors Speed Up the Process",
+            "correct": true
+          }
+        ],
+        "layout": "CLASSIC",
+        "question": "What factor(s) can speed up the composting process?",
+        "questionFormat": 0,
+        "time": 30000,
+        "points": true,
+        "pointsMultiplier": 1,
+        "numberOfAnswers": 3,
+        "image": "https://media.kahoot.it/f319051d-1ab8-462f-a751-f48d65f48015",
+        "imageMetadata": {
+          "id": "f319051d-1ab8-462f-a751-f48d65f48015",
+          "contentType": "image/jpeg",
+          "width": 275,
+          "height": 184,
+          "effects": [
+
+          ]
+        },
+        "resources": "",
+        "video": {
+          "startTime": 0,
+          "endTime": 0,
+          "service": "youtube",
+          "fullUrl": ""
+        }
+      }
+    ],
+    "metadata": {
+      "access": {
+        "features": [
+
+        ]
+      },
+      "duplicationProtection": false,
+      "lastEdit": {
+        "editorUserId": "952536ad-f7cc-47c6-a57c-f18675406d2d",
+        "editorUsername": "eedama",
+        "editTimestamp": 1569313141244
+      }
+    },
+    "resources": "",
+    "slug": "composting-quiz",
+    "type": "quiz",
+    "created": 1569057508157,
+    "modified": 1569313141244
+  }
+}

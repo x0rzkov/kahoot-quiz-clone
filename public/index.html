@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quizz</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+<div>
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="/images/logo_eedama_90.png"/>
+            <a class="navbar-brand" href="./index.html">Home</a>
+            <a class="navbar-brand" href="/standalone/index.html">Standalone</a>
+            <a class="navbar-brand" href="./create/index.html">Quizzes</a>
+            <a class="navbar-brand" href="./create/quiz-creator/index.html">Create Quizz</a>
+
+        </nav>
+
+    </div>
+
+    <div class="container">
+        <h1 style="margin-top: 1%" id="title">Join a room!</h1>
+        <form action="/player/">
+            <div class="form-field">
+                <label id="label">Your name</label>
+                <input id="name" type="text" name="name" autofocus />
+            </div>
+            <br>
+            <div class="form-field">
+                <label id="label">Room Code</label>
+                <input id="pin" name="pin" />
+            </div>
+            <br>
+            <div class="form-field">
+                <button id="joinButton">Join</button>
+                <div style="text-align: center">
+                    <a style="font-size: 25px" href="/create/" id="host">Start a quizz</a>
+                </div>
+            </div>
+        </form>
+        <br />
+    </div>
+</body>
+
+</html>

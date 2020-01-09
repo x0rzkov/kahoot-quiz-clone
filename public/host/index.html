@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game room</title>
+        <link rel = "stylesheet" href = "../css/host.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <button class="btn btn-danger btn-md" id = "cancel" onclick = "endGame()">Cancel</button>
+        <center><img src="/images/logo_eedama_90.png"/><center>
+        <h2 id = "title">Join the room using the following pin-code: </h2>
+        <h1 id = "gamePinText"></h1>
+        <h3 style="text-align: center; margin-top: 5px;">
+            <span class="badge badge-secondary">Participants in the room</span>
+        </h3>
+        <textarea style = "width: 400px; height: 200px;" readonly id = 'players'></textarea>
+        <br>
+        <button id = 'start' onclick = "startGame()">Start Play</button>
+        <br>
+        <br>
+        <script src="https://cdn.jsdelivr.net/npm/socket.io-client@2/dist/socket.io.js"></script>
+        <script src = "../js/libs/jqueryLibrary.js"></script>
+        <script src = "../js/libs//deparam.js"></script>
+        <script src = "../js/host.js"></script>
+    </body>
+</html>
+

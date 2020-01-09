@@ -1,0 +1,78 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #8ca3b6
+    }
+    25% {
+        background-color: #66bf39
+    }
+    50% {
+        background-color: #d67b3e
+    }
+    75% {
+        background-color: rgba(220, 223, 62, 0.89)
+    }
+    100% {
+        background-color: #b697b6
+    }
+}
+
+body {
+}
+#title{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+#name{
+    width: 50%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: center;
+}
+#pin{
+    width: 50%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: center;
+}
+#label{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+#host{
+    text-decoration: none;
+}
+#host:hover{
+    text-decoration:underline;
+}
+#joinButton{
+    width: 50%;
+    background-color: #cccccc;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+

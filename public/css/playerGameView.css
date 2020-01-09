@@ -1,0 +1,69 @@
+html,
+body {
+    height: 90%;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#answer1{
+    background-color: #4CAF50;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#answer2{
+    background-color: #f94a1e;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#answer3{
+    background-color: #3399ff;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#answer4{
+    background-color: #ff9933;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#question{
+    font-family: 'Raleway', sans-serif;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#nameText {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+}
+
+#scoreText {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+}
+
+#message {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}

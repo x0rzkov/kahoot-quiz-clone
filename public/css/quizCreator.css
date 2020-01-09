@@ -1,0 +1,41 @@
+@keyframes bgcolor {
+
+}
+
+body {
+}
+
+#question-field {
+    border-style: dotted;
+    border-width: 5px;
+    border-image-slice: 1;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.question {
+    width: 400px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.correct {
+    width: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#name {
+    display: inline-block;
+    align-content: center;
+    align-items: center;    
+    width: 50% !important;
+}
+#title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#quizTitle {
+    font-family: 'Raleway', sans-serif;
+}
