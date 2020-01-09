@@ -10,4 +10,4 @@ EXPOSE 3000
 
 VOLUME ["/app"]
 
-CMD ["node", "server/server.js"]
+CMD ["node", "server.js"]
