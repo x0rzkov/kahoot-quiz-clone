@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://api.eedama.org');
 
 //When player connects to server
 socket.on('connect', function() {

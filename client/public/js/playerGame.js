@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://api.eedama.org');
 var playerAnswered = false;
 var correct = false;
 var name;

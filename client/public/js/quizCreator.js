@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://api.eedama.org');
 var questionNum = 1; //Starts at two because question 1 is already present
 
 function updateDatabase(){

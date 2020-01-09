@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://api.eedama.org');
 
 socket.on('connect', function(){
     socket.emit('requestDbNames');//Get database names to display to user

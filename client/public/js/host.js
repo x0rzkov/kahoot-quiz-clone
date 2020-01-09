@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://api.eedama.org');
 var params = jQuery.deparam(window.location.search);
 
 //When host connects to server
