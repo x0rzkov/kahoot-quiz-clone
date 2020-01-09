@@ -1,0 +1,71 @@
+---
+version: "3.7"
+services:
+
+  server:
+    image: kahoot-nodejs-server:latest
+    container_name: ${NAMESPACE}_kahoot-server
+    build: .
+    ports:
+    - 3000:3000
+    depends_on:
+    - mongodb
+    volumes:
+    - .:/app
+    links:
+    - mongodb:mongodb
+    networks:
+    - internal
+    - web
+
+  mongodb:
+    image: webhippie/mongodb:latest
+    container_name: ${NAMESPACE}_kahoot-mongodb
+    restart: always
+    ports:
+    - 27017:27017
+    - 28017:28017
+    - 27019:27019
+    volumes:
+    - mongo-data:/var/lib/mongodb/db
+    - mongo-backup:/var/lib/backup
+    networks:
+    - internal
+    environment:
+    - MONGODB_AUTH=${MONGODB_AUTH}
+    - MONGODB_AUTH_DB=${MONGODB_AUTH_DB}
+    - MONGODB_DATABASE=${MONGODB_DATABASE}
+    - MONGODB_DBPATH=${MONGODB_DBPATH}
+    - MONGODB_PASSWORD=${MONGODB_PASSWORD}
+    - MONGODB_REST=${MONGODB_REST}
+    - MONGODB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
+    - MONGODB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
+    - MONGODB_USERNAME=${MONGODB_USERNAME}
+    - MONGODB_VERBOSE=${MONGODB_VERBOSE}
+
+  mongoexpress:
+    restart: always
+    image: mongo-express
+    container_name: ${NAMESPACE}_kahoot-mongoexpress
+    links:
+    - mongodb:mongo
+    environment:
+    - VCAP_APP_PORT=8090
+    - ME_CONFIG_MONGODB_AUTH_USERNAME=""
+    - ME_CONFIG_MONGODB_AUTH_PASSWORD=""
+    depends_on:
+    - mongodb
+    ports:
+    - 8090:8090
+    networks:
+    - internal
+    - web
+
+volumes:
+  mongo-data:
+  mongo-backup:
+
+networks:
+  internal:
+  web:
+    external: true
