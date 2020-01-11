@@ -10,14 +10,14 @@ const cors = require('cors');
 const { LiveGames } = require('./utils/liveGames');
 const { Players } = require('./utils/players');
 
-const publicPath = path.join(__dirname, '../public');
+// const publicPath = path.join(__dirname, '../public');
 const app = express();
 
 const corsOptions = {
-  origin: '*'
+  origin: 'https://quizz.eedama.org'
 }
 
-//allow OPTIONS on all resources
+// allow OPTIONS on all resources
 app.options('*', cors(corsOptions));
 
 const router = express.Router();
@@ -30,23 +30,21 @@ const io = socketIO(server);
 var games = new LiveGames();
 var players = new Players();
 
-
-
 // configuramos la app para que use bodyParser(), esto nos dejara usar la informacion de los POST
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Le decimos a la aplicación que utilize las rutas que agregamos
-app.use('/api', cors(corsOptions), router);
+app.use('/api', router);
 // app.use(express.static(publicPath));
 
 //Mongodb setup
 var MongoClient = require('mongodb').MongoClient;
 var mongoose = require('mongoose');
-var url = "mongodb://localhost:27017/";
+var url = "mongodb://mongodb:27017/";
 
 
-router.get('', cors(corsOptions), function(req, res) {
+router.get('', function(req, res) {
     res.json({ games });
 });
 

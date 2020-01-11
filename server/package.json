@@ -1,21 +1,22 @@
 {
-    "name": "kahootclone-server",
-    "version": "1.0.0",
-    "description": "A kahoot website clone -server",
-    "main": "./server.js",
-    "scripts": {},
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "ejs": "^3.0.1",
-        "express": "^4.17.1",
-        "moment": "^2.24.0",
-        "mongodb": "^3.4.1",
-        "mongoose": "^5.8.6",
-        "nodemon": "^2.0.2",
-        "socket.io": "^2.3.0"
-    },
-    "devDependencies": {
-        "expect": "^25.0.0"
-    }
+  "name": "kahootclone-server",
+  "version": "1.0.0",
+  "description": "A kahoot website clone -server",
+  "main": "./server.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.6",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "expect": "^25.0.0"
+  }
 }
