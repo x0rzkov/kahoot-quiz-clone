@@ -9,7 +9,6 @@ class LiveGames {
     }
     removeGame(hostId){
         var game = this.getGame(hostId);
-        
         if(game){
             this.games = this.games.filter((game) => game.hostId !== hostId);
         }
